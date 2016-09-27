@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Resource Files\GLEW">
+      <UniqueIdentifier>{e4b77584-daa4-496a-b911-c1f6a3315998}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\SDL2">
+      <UniqueIdentifier>{fbc039be-edeb-44e5-a421-a635e3d1471f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Part_04\colors.txt">
@@ -54,5 +60,25 @@
     <None Include="Part_04\vert.glsl">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="SDL2\lib\x86\SDL2.dll">
+      <Filter>Resource Files\SDL2</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDL2\lib\x86\SDL2.lib">
+      <Filter>Resource Files\SDL2</Filter>
+    </Library>
+    <Library Include="SDL2\lib\x86\SDL2main.lib">
+      <Filter>Resource Files\SDL2</Filter>
+    </Library>
+    <Library Include="SDL2\lib\x86\SDL2test.lib">
+      <Filter>Resource Files\SDL2</Filter>
+    </Library>
+    <Library Include="OpenGL Extensions\GLEW\lib\Release\Win32\glew32.lib">
+      <Filter>Resource Files\GLEW</Filter>
+    </Library>
+    <Library Include="OpenGL Extensions\GLEW\lib\Release\Win32\glew32s.lib">
+      <Filter>Resource Files\GLEW</Filter>
+    </Library>
   </ItemGroup>
 </Project>

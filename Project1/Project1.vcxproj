@@ -36,6 +36,14 @@
   <ItemGroup>
     <None Include="Part_04\frag.glsl" />
     <None Include="Part_04\vert.glsl" />
+    <None Include="SDL2\lib\x86\SDL2.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="OpenGL Extensions\GLEW\lib\Release\Win32\glew32.lib" />
+    <Library Include="OpenGL Extensions\GLEW\lib\Release\Win32\glew32s.lib" />
+    <Library Include="SDL2\lib\x86\SDL2.lib" />
+    <Library Include="SDL2\lib\x86\SDL2main.lib" />
+    <Library Include="SDL2\lib\x86\SDL2test.lib" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{E8CD5F57-91F5-4B0D-84A4-B41D749B8E7F}</ProjectGuid>
